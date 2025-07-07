@@ -1,0 +1,87 @@
+/* === GLOBAL === */
+.root {
+    -fx-font-family: "Segoe UI", sans-serif;
+    -fx-background-color: #f9fbfc;
+}
+
+/* === LABELS === */
+.label {
+    -fx-font-size: 15px;
+    -fx-text-fill: #2c3e50;
+    -fx-font-weight: 600;
+}
+
+/* === TITLE LABELS === */
+.title-label {
+    -fx-font-size: 22px;
+    -fx-text-fill: #34495e;
+    -fx-font-weight: bold;
+    -fx-padding: 10 0 20 0;
+}
+
+/* === BUTTONS === */
+.button {
+    -fx-background-color: #3498db;
+    -fx-text-fill: white;
+    -fx-font-weight: bold;
+    -fx-font-size: 14px;
+    -fx-padding: 8 16;
+    -fx-background-radius: 5;
+    -fx-cursor: hand;
+}
+.button:hover {
+    -fx-background-color: #2980b9;
+}
+
+/* === COMBOBOX AND DATEPICKER === */
+.combo-box, .date-picker {
+    -fx-background-color: white;
+    -fx-border-color: #bdc3c7;
+    -fx-border-radius: 4;
+    -fx-padding: 4 8;
+    -fx-font-size: 14px;
+}
+
+/* === TABLE VIEW === */
+.table-view {
+    -fx-border-color: #d0dce5;
+    -fx-border-radius: 6;
+    -fx-background-radius: 6;
+    -fx-table-cell-border-color: transparent;
+    -fx-selection-bar: #ecf0f1;
+    -fx-selection-bar-non-focused: #ecf0f1;
+}
+
+.table-column {
+    -fx-alignment: CENTER_LEFT;
+}
+
+.table-column-header {
+    -fx-background-color: #3498db;
+    -fx-text-fill: white;
+    -fx-font-weight: bold;
+    -fx-font-size: 14px;
+    -fx-padding: 8;
+}
+
+.table-row-cell:filled:selected, .table-row-cell:filled:selected:hover {
+    -fx-background-color: #d0e7f9;
+    -fx-text-fill: black;
+}
+
+/* === FORM FIELDS === */
+.text-field {
+    -fx-border-color: #ccc;
+    -fx-border-radius: 4;
+    -fx-padding: 6 8;
+    -fx-font-size: 14px;
+}
+.text-field:focused {
+    -fx-border-color: #2980b9;
+}
+
+/* === ALERT DIALOG === */
+.dialog-pane {
+    -fx-font-size: 14px;
+    -fx-font-family: "Segoe UI", sans-serif;
+}
