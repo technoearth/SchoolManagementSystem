@@ -20,7 +20,7 @@ public class Dashboard extends Application {
     public void start(Stage stage) {
         mainLayout = new BorderPane();
 
-        // Create Sidebar ---test
+        // Create Sidebar 
         VBox sidebar = new VBox(15);
         sidebar.setPadding(new Insets(20));
         sidebar.setStyle("-fx-background-color: #2C3E50;");
